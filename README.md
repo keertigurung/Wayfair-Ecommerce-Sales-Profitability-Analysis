@@ -25,12 +25,14 @@ Wayfair operates a large e-commerce marketplace where sales performance can vary
 
 The project uses four datasets covering customers, products, orders, and order items.
 
-| Dataset | Records | Purpose |
-|---|---:|---|
-| Customers | 3,600 | Customer and acquisition information |
-| Products | 90 | Product, category, price, and cost information |
-| Orders | 9,207 | Order dates, status, payment, discounts, and shipping |
-| Order Items | 15,409 | Product-level transaction details |
+
+| Dataset     | Records | Grain                                    | Purpose                                               |
+| ----------- | ------: | ---------------------------------------- | ----------------------------------------------------- |
+| Customers   |   3,600 | One row per customer                     | Customer and acquisition information                  |
+| Products    |      90 | One row per product                      | Product, category, price, and cost information        |
+| Orders      |   9,207 | One row per order                        | Order dates, status, payment, discounts, and shipping |
+| Order Items |  15,409 | One row per product line within an order | Product-level transaction details                     |
+
 
 The datasets cover e-commerce transactions from 2024–2025 and provide the information required to analyze sales performance, profitability, product performance, and order status.
 
